@@ -1,0 +1,34 @@
+@use 'colors';
+
+
+%button{
+    width: 10em;
+    height: 5em;
+    font-family: Cambria;
+    border-style: groove;
+    border-width: 20px;
+    font-size: large;
+    margin: 5px;
+}
+
+
+body{
+    text-align: center;
+    direction: rtl;
+}
+#be{
+    @extend %button;
+    background-color:colors.$purple;
+    color:colors.$white;
+
+}
+
+#new{
+    @extend %button;
+    background-color:colors.$pink;
+    color:colors.$white;
+}
+
+
+
+ 

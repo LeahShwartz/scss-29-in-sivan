@@ -1,0 +1,10 @@
+body {
+  -webkit-transform: rotate(20deg);
+  -ms-transform: rotate(20deg);
+  transform: rotate(20deg);
+  text-align: center;
+  direction: rtl;
+  color: #852;
+}
+
+/*# sourceMappingURL=style2.css.map */

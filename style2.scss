@@ -1,0 +1,18 @@
+@use 'colors';
+@mixin transform($property)
+{
+    -webkit-transform:$property;
+    -ms-transform:$property;
+    transform:$property;
+}
+
+
+
+body{
+    @include transform(rotate(20deg));
+
+    text-align: center;
+    direction: rtl;
+    color: colors.$gHeat;
+
+}
